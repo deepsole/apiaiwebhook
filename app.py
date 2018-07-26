@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import urllib
 import json
-import os
 import wikipedia
 import wolframalpha
 import sys
