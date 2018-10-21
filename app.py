@@ -4,7 +4,6 @@ import json
 import wikipedia
 import wolframalpha
 import sys
-from microsofttranslator import Translator
 import requests
 import random
 from PyDictionary import PyDictionary
@@ -15,9 +14,6 @@ from flask import make_response
 
 # Flask app should start in global layout
 app = Flask(__name__)
-
-
-
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
